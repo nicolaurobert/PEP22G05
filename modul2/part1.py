@@ -53,4 +53,46 @@ print(a is b)
  #0123456
 a = 'my_text '
 print(a[1])
+print(a[1:6])
+print(a[1:8])
+print(a[1:])
+
+print(a[:6:3])
+
+
+    #-7-6-5-4-3-2-1
+a = 'my_text'
+print(a[-1])
+print(a[-6:-1])
+print(a[-1:-6:-3])
+
+b = 'This is my reversed text'
+print(b[::-1])
+
+print('astazi ma duc la "facultate".')
+print("Astazi ma duc la \"facultate\".")
+print(
+"""
+/*\/*\*/*\/*\\
+\nPython
+\./\./\./\./    
+""")
+print("P y t h o n")
+
+nume1= input("Cum te numesti?")
+varsta= int(input("Ce varsta ai?"))
+x=2022 - age
+print(name + 'are varsta de' + str(age) + 'in anul' + year)
+
+result = my_str.center(80)
+print(result)
+
+result = 'adc' .center(7, ' ')
+print(result)
+
+
+
+
+
+
 
